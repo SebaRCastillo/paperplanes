@@ -1,3 +1,5 @@
+import CartWidget from './CartWidget'
+
 function NavBar() {
     let categorias = ['Películas', 'Series y TV', 'Anime', 'Música', 'Videojuegos', 'Animales', 'Frases']
     return (
@@ -5,9 +7,10 @@ function NavBar() {
     <h1>PaperPlanes</h1>
     <ul>
         {
-        categorias.map(cat =><li><a href="#">{cat}</a></li>)
+        categorias.map(cat =><li><a href="/#">{cat}</a></li>)
         }
     </ul>
+    <CartWidget/>
     </>
     )
 }
