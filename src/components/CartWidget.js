@@ -1,11 +1,11 @@
-import ShoppingCart from './ShoppingCart.svg';
+import ShoppingCart from "./ShoppingCart.svg";
 
 function CartWidget() {
-    return (
-        <>
-        <img src={ShoppingCart}/>
-        </>
-    )
+  return (
+    <>
+      <img src={ShoppingCart} />
+    </>
+  );
 }
 
-export default CartWidget
+export default CartWidget;
